@@ -92,4 +92,15 @@ p {
 #para2 {
     clear: both;
 }
+#box {
+    font-size: 18px;
+    text-align: center;
+}
+.box{
+    position: relative;
+    float: left;
+    display: inline-block; /* Make the width of box same as image */
+    font-size:18px;
+}
 
+        
