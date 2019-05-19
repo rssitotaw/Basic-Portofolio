@@ -1,35 +1,51 @@
 body {
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-    line-height: 150%;
+    background-color: #eeeaea;
+    margin: 100;
+    padding: 100;
+
 
 }
+#box {
+    size: 960px
+    padding: 1px;
+}
+header {
+    padding-bottom: 4.5%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ccc;
+    
 
+}
 h1 {
     font-style: 'Georgia', Times, times new roman, serif;
     font-size: 30px;
     font-color: #ffffff;
     border color: #cccccc;
-    background-color: #4aaaa5;
-    background: 40%;
+    background: 50%;
     margin: 0;
     text-align: 30%;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     border-style: solid;
     border-width: 2px;
     border-color: #ccc;
+    float: left;
+    width: 20%;
     
     
 }
 
 nav {
     float: right;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     text-align: end;
     margin: 0;
     padding:
+    border-right: 1px;
+    border-style: solid #bbb;
+    
+
 
 }
 
@@ -40,6 +56,7 @@ nav {
 }
 
 footer {
+    clear: both;
     background-color: #666666;
     font-size: 18px;
     font: #ffffff;
@@ -49,29 +66,30 @@ footer {
     border-top-style: solid;
     border-top-width: 5px;
     border-color: #4aaaa5;
-    float: left;
-}
-
-#mainbio
- {
-    float: left;
-    Width: 40%;
     
 }
-#second-paragraph
-{
-    Float: right;
-    width: 60%;
-}
-
-#third-paragraph
- {
-    float: left;
-    margin: 10%
-}
 img {
-    margin: 5%;
-    width:200px;
-    height: 200px;
+    margin: 15px;
+    float: left;
+   
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    line-height: 40px;
+
+}
+#image {
+    
+    
+}
+#para1 {
+    padding: 2%;
+    text-align: center;
+
+    
+}
+#para2 {
+    clear: both;
 }
 
