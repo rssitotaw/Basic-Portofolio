@@ -1,7 +1,13 @@
+h1 {
+    border: 0;
+}
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+}
 .box .text-1 {
 
     position: absolute;
-    background-color: #4aaaa5
     z-index: 999;
     margin-right: 59%;
     margin-left: 1%;
@@ -13,7 +19,7 @@
     background: rgba(45, 151, 142, 0.8);
     font-family: Arial,sans-serif;
     color: #fff;
-    width: 27%; /* Set the width of the positioned div */
+    width: 27%; 
 }
 
 .box .text-2 {
@@ -27,7 +33,7 @@
         background: rgba(45, 151, 142, 0.8);
         font-family: Arial,sans-serif;
         color: #fff;
-        width: 27%; /* Set the width of the positioned div */
+        width: 27%;
 }
 .box .text-3 {
     position: absolute;
@@ -36,11 +42,11 @@
     left: 0;
     right: 6;     
     text-align: center;
-    top: 20%; /* Adjust this value to move the positioned div up and down */
+    top: 20%; 
     background: rgba(45, 151, 142, 0.8);
     font-family: Arial,sans-serif;
     color: #fff;
-    width: 27%; /* Set the width of the positioned div */
+    width: 27%; 
 }
 .box .text-4 {
     position: absolute;
@@ -50,8 +56,8 @@
     left: 0;
     right: 0;        
     text-align: center;
-    top: 70%; /* Adjust this value to move the positioned div up and down */
+    top: 70%; 
     background: rgba(45, 151, 142, 0.8);
     font-family: Arial,sans-serif;
     color: #fff;
-    width: 27%; /* Set the width of the positioned div */
+    width: 27%;
